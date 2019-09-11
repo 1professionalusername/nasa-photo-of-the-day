@@ -75,7 +75,7 @@ DEMO KEY rate limits:
 
 > Daily Limit: 50 requests per IP address per day
 
-_Note: if the photo url is NOT a photo, you will need to learn how to display a video in a React app on your own, OR just fetch the APOD from a different date by adding this to the back of the API endpoint: `&date=2012-03-14`_
+_Note: if the photo url is NOT a photo, you will need to learn how to display a video in a React app on your own, OR just fetch the APOD from a different date by adding this to the plannback of the API endpoint: `&date=2012-03-14`_
 
 **Step 4 - Adding the Data to State**
 

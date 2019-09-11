@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
 
-  const [data, setData] = useState('Hi')
+  const [data, setData] = useState([])
 
   useEffect(() => {
     axios
@@ -20,11 +20,11 @@ function App() {
 
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-        {/* <App data={data} /> */}
-      </p>
+
+      <h1>{data.title}</h1>
+      <h3>{data.date}</h3>
+      <img src={data.url} />
+      <h3>{data.explanation}</h3>
     </div>
   );
 }
