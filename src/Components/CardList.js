@@ -10,7 +10,7 @@ function CardList() {
 
     useEffect(() => {
         axios
-            .get('https://api.nasa.gov/planetary/apod?api_key=JOKttsNDn4qO47RXwsgVP5QcPNAiX5Ub51HrBcgd&date=2012-03-14')
+            .get('https://api.nasa.gov/planetary/apod?api_key=JOKttsNDn4qO47RXwsgVP5QcPNAiX5Ub51HrBcgd')
             .then(res => {
                 console.log(res.data)
                 setData(res.data)
